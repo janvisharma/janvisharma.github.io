@@ -1,32 +1,20 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Janvi's Personal Blog"
-title_separator          : "-"
+title_separator          : ""
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Janvi Sharma"
-description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "A personal website where I document my work."
+url                      : "https://janvisharma.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+repository               : "janvisharma/janvisharma.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # "/assets/images/background.jpg"
+logo                     : #"/assets/images/background.jpg"
+masthead_title           : #'hello'
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -39,7 +27,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : dark # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -68,6 +56,9 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
+header:
+  teaser: "/assets/images/background.jpg"
+
 # Social Sharing
 twitter:
   username               :
@@ -94,8 +85,8 @@ analytics:
 # Site Author
 author:
   name             : "Janvi Sharma"
-  avatar           : "/assets/images/profile2.gif"
-  bio              : "Welcome to my personal blog!"
+  avatar           : "/assets/images/profile4.gif"
+  bio              : "Software Engineering Sophomore, The University of Hong Kong"
   location         : "Hong Kong"
   email            : #janvi@connect.hku.hk
   links:
@@ -119,6 +110,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+  
 
 # Site Footer
 footer:
@@ -274,11 +266,12 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      mathjax: true
       comments: # true
       share: true
+      class: wide
       related: true
