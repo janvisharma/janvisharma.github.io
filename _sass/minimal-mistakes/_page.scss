@@ -1,7 +1,7 @@
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
 #main {
   @include clearfix;
   margin-left: auto;
@@ -20,6 +20,7 @@
 }
 
 body {
+  font-family: 'Noto Serif TC', serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,6 +70,7 @@ body {
 }
 
 .page__title {
+  font-family: 'Noto Serif TC', serif;
   margin-top: 0;
   line-height: 1;
 

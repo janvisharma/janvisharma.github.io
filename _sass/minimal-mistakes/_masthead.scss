@@ -2,6 +2,8 @@
    MASTHEAD
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
 .masthead {
   position: relative;
   border-bottom: 1px solid $border-color;
@@ -44,6 +46,7 @@
 }
 
 .site-title {
+  font-family: 'PT Mono', monospace;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

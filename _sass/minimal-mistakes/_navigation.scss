@@ -5,6 +5,12 @@
 /*
    Breadcrumb navigation links
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+.visible-links{
+  font-family: 'Unica One', cursive;
+  font-size: 24px;
+}
 
 .breadcrumbs {
   @include clearfix;
@@ -73,7 +79,8 @@
       display: block;
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
-      font-family: $sans-serif;
+      // font-family: $sans-serif;
+      font-family: 'Unica One', cursive;
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;

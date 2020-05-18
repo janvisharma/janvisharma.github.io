@@ -5,7 +5,7 @@
 /*
    Default
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
 .sidebar {
   @include clearfix();
   // @include breakpoint(max-width $large) {
@@ -15,6 +15,7 @@
   //   -webkit-transform: translate3d(0, 0, 0);
   //   transform: translate3d(0, 0, 0);
   // }
+
 
   @include breakpoint($large) {
     float: left;
@@ -138,6 +139,7 @@
 }
 
 .author__content {
+  
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
@@ -152,12 +154,14 @@
   }
 
   a {
+    
     color: inherit;
     text-decoration: none;
   }
 }
 
 .author__name {
+  
   margin: 0;
 
   @include breakpoint($large) {
@@ -166,11 +170,12 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: 'Oxanium', cursive;
   font-size: $type-size-5;
 }
 
 .author__bio {
+  font-family: 'Oxanium', cursive;
   margin: 0;
 
   @include breakpoint($large) {
@@ -183,7 +188,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: 'Oxanium', cursive;
   z-index: 20;
   position: relative;
   cursor: pointer;
@@ -233,6 +238,7 @@
 }
 
 .author__urls {
+  font-family: 'Oxanium', cursive;
   display: none;
   position: absolute;
   right: 0;
