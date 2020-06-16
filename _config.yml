@@ -263,7 +263,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+
   - scope:
       path: ""
     values:
@@ -275,7 +275,7 @@ defaults:
       share: true
       class: wide
       related: true
-   
+  
   - scope:
       path: ""
       type: aboutme
@@ -288,3 +288,8 @@ defaults:
       excerpt: ""
       sidebar:
         nav: "aboutme"
+
+      
+  
+      
+ 

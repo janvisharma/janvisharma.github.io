@@ -6,4 +6,32 @@ header:
   overlay_image: /assets/images/background.jpg
 title: "      "
 classes: wide
+
+
+feature_row:
+  - image_path: assets/images/sorting_visual.gif
+    alt: "sorting_visualizer"
+    title: "Sorting Visualizer"
+    excerpt: "Visualizer for common sorting algorithms built using ReactJS."
+    url: https://janvisharma.github.io/SortingVisualizer/
+    btn_label: "Live Demo!"
+    btn_class: "btn--inverse"
+  
 ---
+
+<style>
+  h1{font-weight: normal;}
+</style>
+
+{% include feature_row %}
+
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}
+{% include paginator.html %} -->
