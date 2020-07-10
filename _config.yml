@@ -275,7 +275,15 @@ defaults:
       share: true
       class: wide
       related: true
-  
+  - scope:
+      type: posts
+    values:
+      toc: true
+      toc_label: "Overview"
+      read_time: false
+      comments: false
+      related: true
+      tags: true
   - scope:
       path: ""
       type: aboutme
